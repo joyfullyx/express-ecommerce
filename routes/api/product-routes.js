@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Product, Category, Tag } = require('../../models');
+const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
 
@@ -105,6 +105,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// TODO: delete tags as well?? 
 // delete one product by its `id` value
 router.delete('/:id', async (req, res) => {
   try {
