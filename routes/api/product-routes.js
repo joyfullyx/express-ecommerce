@@ -18,8 +18,8 @@ router.get('/', async (req, res) => {
 });
 
 // get one product
+// find a single product by its `id`
 router.get('/:id', async (req, res) => {
-  // find a single product by its `id`
   try {
     const productData = await Product.findByPk(req.params.id, {
       // be sure to include its associated Category and Tag data
@@ -117,7 +117,7 @@ router.delete('/:id', async (req, res) => {
 
     if (!productData) {
       res.status(400).json({ message: 'No product with that id! '});
-      return
+      return;
     }
 
     res.status(200).json(productData);
