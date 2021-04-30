@@ -24,7 +24,7 @@ For businesses to easily keep track of inventory, create, update, and delete cat
 
 ## Demo
 
-Click [here]() to see a full demonstration of the application. 
+Click [here](https://drive.google.com/file/d/1DUhQLpwVzILas_8G6kRGoszs_k16iKIX/view?usp=sharing) to see a full demonstration of the application. 
 
 ![example](https://raw.githubusercontent.com/joyfullyx/express-ecommerce/main/images/example-1.png)
 
