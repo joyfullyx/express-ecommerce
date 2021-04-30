@@ -17,7 +17,7 @@ A backend application to keep track of, look up, save, and update  products and 
 8. [License](#license)
 
 ## Installation
-npm i express sequelize mysql2 dotenv -> create databse in MySql Workbench -> npm run seed (to seed data) -> nodemon server.js to run server and interact in Insomnia on localhost:3001/ 
+npm i express sequelize mysql2 dotenv -> create databse in MySql Workbench from schema.sql -> npm run seed (to seed data) -> refresh sidebar of db's to see seeded table data under ecommerce_db in Workbench -> nodemon server.js to run server and interact in Insomnia on localhost:3001/ 
 
 ## Usage
 For businesses to easily keep track of inventory, create, update, and delete categories, products, and tags, and easily find a specific item by its own unique id. 
